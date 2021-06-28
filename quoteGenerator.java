@@ -20,7 +20,7 @@ public class quoteGenerator {
         menu(); 
     }   
     
-    // Displays a list of mood options and calls the methods respectively
+    // Displays a list of emotions and calls the methods respectively
     public static void menu() {
         int userChoice = 0;
         
@@ -33,7 +33,7 @@ public class quoteGenerator {
             System.out.println("4. Fear");
             System.out.println("\n5. Exit");
             System.out.println("======================================================================");
-            System.out.print("Enter the number corresponding with the given mood choices: ");
+            System.out.print("Enter the number corresponding with the given emotions listed: ");
             userChoice = keyboard.nextInt();
             
             while (userChoice <= 0 || userChoice > 5) {
